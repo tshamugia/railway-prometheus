@@ -14,6 +14,6 @@ CMD        [ "--config.file=/etc/prometheus/prometheus.yml", \
              "--storage.tsdb.retention.time=365d", \
              "--web.console.libraries=/usr/share/prometheus/console_libraries", \
              "--web.console.templates=/usr/share/prometheus/consoles", \
-             "--web.external-url=http://railway-prometheus-monitoring-setup.up.railway.app", \
+             "--web.external-url=http://railway-prometheus-monitoring-setup.up.railway.app:9090", \
              "--log.level=info"]
  
