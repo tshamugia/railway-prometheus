@@ -23,6 +23,10 @@ scrape_configs:
     static_configs:
       - targets: ['demo.do.prometheus.io:9090']
 
+  - job_name: 'postgres'
+    static_configs:
+    - targets: ['microsoftsql.railway.internal:1433']
+
   # - job_name: 'postgres'
   #   scrape_interval: 5s
   #   static_configs:
